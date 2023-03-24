@@ -25,10 +25,10 @@ export default function Navbar() {
                     <Link to="/workshop">Nos ateliers brassage</Link>
                 </li>
                 <li>
-                    <Link to="/gallery">Galerie de photos</Link>
+                    <Link to="/gallery">Galerie photos</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Contact / Horaires</Link>
                 </li>
             </ul>
         </div>
