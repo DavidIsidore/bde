@@ -3,6 +3,7 @@
 .footer {
     background-color: $color2;
     @include flex(row, space-evenly, center);
+    height: 100px;
     &_text {
         color: $color1;
     }
