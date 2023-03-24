@@ -1,0 +1,23 @@
+@import '../../sass/main.scss';
+
+.header {
+    @include flex(column, space-evenly, center);
+    background-color: $color2;
+    &_img {
+        width: 350px;
+    }
+    &_nav {
+        &_list {
+            @include flex(row, space-evenly, center);
+            list-style: none;
+            color: $color1;
+            gap: 30px;
+        }
+    }
+}
+
+.ab {
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+}
