@@ -1,0 +1,12 @@
+@import '../../sass/main.scss';
+
+.footer {
+    background-color: $color2;
+    @include flex(row, space-evenly, center);
+    &_text {
+        color: $color1;
+    }
+    &_logo {
+        width: 50px;
+    }
+}
