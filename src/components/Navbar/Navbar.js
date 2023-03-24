@@ -4,33 +4,33 @@ import './navbar.scss'
 
 export default function Navbar() {
     return (
-        <div>
-            <ul>
-                <li>
+        <nav className="nav">
+            <ul className="nav_list">
+                <li className="nav_list_item">
                     <Link to="/">Accueil</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/about">Qui sommes-nous / La brasserie</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/beer">Notre gamme de bières / Nos services</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/news">Actualités</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/visits">Les visites</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/workshop">Nos ateliers brassage</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/gallery">Galerie photos</Link>
                 </li>
-                <li>
+                <li className="nav_list_item">
                     <Link to="/contact">Contact / Horaires</Link>
                 </li>
             </ul>
-        </div>
+        </nav>
     )
 }

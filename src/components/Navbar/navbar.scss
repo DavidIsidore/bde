@@ -1,1 +1,16 @@
 @import '../../sass/main.scss';
+
+.nav_list {
+    @include flex(row, space-evenly, center);
+    gap: 50px;
+    &_item {
+        color: $color1;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: $color1;
+    text-decoration: none;
+}
